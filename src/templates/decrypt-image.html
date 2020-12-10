@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Decrypt Image</title>
+</head>
+<body>
+
+
+<h1>Decrypt Image</h1>
+
+<form id="upload-form" action="{{url_for('lsb_image_decrypt')}}" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" accept="image/*">
+    <input type="submit" value="send">
+</form>
+
+</body>
+</html>

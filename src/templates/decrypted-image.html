@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Decrypted Image</title>
+</head>
+<body>
+
+    <h1>Hidden Message in Image</h1>
+    <p>The encrypted image you have uploaded is</p>
+    <img src="{{ url_for('static', filename=image_name)}}" alt="encrypted image">
+
+    <h3>The Decrypted Message Is</h3>
+    <h4>{{ message }}</h4>
+
+    <a href="{{ url_for('decrypt_image') }}">Decrypt Another Image?</a> <br>
+    <a href="{{ url_for('encrypt_image') }}">Encrypt Instead?</a>
+
+</body>
+</html>

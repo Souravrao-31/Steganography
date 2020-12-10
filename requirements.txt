@@ -1,0 +1,6 @@
+numpy
+opencv-python
+falcon
+waitress
+flask
+flask-cors

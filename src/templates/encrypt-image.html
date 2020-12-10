@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Encrypt Picture</title>
+</head>
+
+<body>
+
+<h1>Encrypt Image</h1>
+
+<form id="upload-form" action="{{url_for('lsb_image_encrypt')}}" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" accept="image/*">
+    <label>
+        <input type="text" name="message" value="Enter Plaintext Message">
+    </label>
+    <input type="submit" value="send">
+</form>
+
+</body>
+</html>
