@@ -26,7 +26,7 @@ Clone this repository and install all dependencies
 
 ```bash
 
-cd lsb-image-steganography
+cd steganography
 pip install -r requirements.txt
 ```
 
