@@ -25,7 +25,7 @@ additional Blue channel layer for pixel storage.
 Clone this repository and install all dependencies
 
 ```bash
-
+https://github.com/Souravrao-31/Steganography.git
 cd steganography
 pip install -r requirements.txt
 ```
